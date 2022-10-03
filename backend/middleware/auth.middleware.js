@@ -2,6 +2,7 @@ const jwt = require("jsonwebtoken");
 const UserModel = require("../models/user.model");
 
 
+
 //--------------------
 // Fonction pour voir quels sont les utiliseurs connectés en décodant le token présent dans le cookie avec "cookie parser"
 //--------------------

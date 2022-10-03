@@ -4,7 +4,6 @@ const multer = require('multer');
 //--------------------
 // Constante autaurisant seulement certains type de format d'image
 //--------------------
-
 const MIME_TYPES = {
   'image/jpg': 'jpg',
   'image/jpeg': 'jpg',
@@ -32,4 +31,4 @@ const storage = multer.diskStorage({
   }
 });
 
-module.exports = multer({storage: storage}).single('image');
+module.exports = multer({ storage: storage }).single('image');

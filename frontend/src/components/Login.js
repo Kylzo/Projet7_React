@@ -1,5 +1,6 @@
 import Login from '../pages/login'
 
+
 function loginPages() {
     return (
         <div>

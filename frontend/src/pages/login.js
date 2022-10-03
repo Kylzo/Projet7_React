@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/sign.css';
 
+
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -25,8 +26,8 @@ function Login() {
                     emailError.innerHTML = res.data.errors.email;
                     passwordError.innerHTML = res.data.errors.password;
                 } else {
-                    console.log ("data", res.data)
-                   // window.location = '/home'
+                    console.log("data", res.data)
+                    // window.location = '/home'
                 }
             })
             .catch((err) => {

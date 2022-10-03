@@ -21,6 +21,7 @@ module.exports.signUpErrors = (err) => {
   return errors;
 };
 
+
 module.exports.signInErrors = (err) => {
   let errors = { email: '', password: '' }
 
@@ -32,6 +33,7 @@ module.exports.signInErrors = (err) => {
 
   return errors;
 }
+
 
 module.exports.uploadErrors = (err) => {
   let errors = { format: '', maxSize: "" };

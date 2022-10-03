@@ -1,4 +1,4 @@
-.groupomania-banner {
+.groupomania-banner {	
 	color: black;
 	text-align: right;
 	border-bottom: solid 3px rgba(248, 116, 116, 0.527);
@@ -30,7 +30,6 @@
 .groupomania-navbarSign {
 	color: rgb(190, 1, 1);
 	text-decoration: none;
-
 }
 
 .groupomania-navbarSign:hover {
@@ -42,7 +41,6 @@
 	text-decoration: none;
 	padding-left: 15px;
 	padding-right: 15px;
-
 }
 
 .groupomania-navbarLog:hover {
@@ -52,7 +50,6 @@
 .groupomania-navbarHome {
 	color: black;
 	text-decoration: none;
-
 }
 
 .groupomania-navbarHome:hover {

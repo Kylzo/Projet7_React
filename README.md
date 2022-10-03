@@ -1,5 +1,5 @@
-<!-- PROJET M.E.R.N EN COURS DE DEVELOPPEMENT  -->
-<!-- Ce projet utilise MongoDB, Express.js, React.js et Node.js -->
+- PROJET M.E.R.N EN COURS DE DEVELOPPEMENT  
+- Ce projet utilise MongoDB, Express.js, React.js et Node.js 
 
 
 Backend

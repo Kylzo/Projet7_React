@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const PostSchema = new mongoose.Schema(
   {
     posterId: {
@@ -24,7 +25,7 @@ const PostSchema = new mongoose.Schema(
     comments: {
       type: [
         {
-          commenterId:String,
+          commenterId: String,
           commenterLastName: String,
           commenterFirstName: String,
           text: String,

@@ -1,9 +1,10 @@
 import Accueil from '../pages/welcome'
 
+
 function Welcome() {
     return (
         <div>
-            <Accueil/>
+            <Accueil />
         </div>
     )
 }

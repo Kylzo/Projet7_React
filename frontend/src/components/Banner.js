@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/icon.png'
 import '../styles/Banner.css'
 
+
 function Banner() {
 	const title = 'Workplace'
 	const accueil = 'Accueil'

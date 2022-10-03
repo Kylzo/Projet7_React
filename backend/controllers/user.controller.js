@@ -12,7 +12,6 @@ module.exports.getAllUsers = async (req, res) => {
 };
 
 
-
 //--------------------
 // Fonction pour trouver les info d'un utilisateur par son id 
 //--------------------
@@ -35,7 +34,7 @@ module.exports.updateUser = (req, res) => {
     return res.status(400).send("ID unknown : " + req.params.id);
 
   try {
-     UserModel.findOneAndUpdate(
+    UserModel.findOneAndUpdate(
       { _id: req.params.id },
       {
         $set: {
