@@ -1,0 +1,92 @@
+.groupomania-load {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+}
+
+.groupomania-spinner {
+    width: 350px;
+    border-radius: 100%;
+    position: absolute;
+    animation: spin 3000ms linear infinite;
+}
+
+.groupomania-welcomeLoad {
+    position: absolute;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    animation: clignotte 3000ms linear infinite;
+}
+.groupomania-titleLoad {
+    
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    animation: clignotte 3000ms linear infinite;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@keyframes clignotte {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 700px) {
+    .groupomania-load {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .groupomania-spinner {
+        width: 150px;
+    }
+    
+    .groupomania-titleLoad {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 250px) {
+    .groupomania-load {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .groupomania-spinner {
+        width: 100px;
+    }
+    
+    .groupomania-titleLoad {
+        display: none;
+    }
+}
